@@ -1,0 +1,798 @@
+{
+    "emails": [
+        {
+            "s_internal_name": "email_item_inquiry",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Jemand hat eine Frage zu Ihrem Angebot",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht zu Ihrem Angebot <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> geschickt:<\/p><p>{COMMENT}<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Someone has a question about your listing",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message about your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Alguien tiene una pregunta acerca de su anuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE})le dej\u00f3 un mensaje acerca de su anuncio<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Quelqu'un a une question au sujet de votre annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vous a laiss\u00e9 un message au sujet de votre annonce <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Cordialement,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Ti hanno fatto una domanda per un tuo annuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) ti \u00e8 stato inviato un messagio in riferimento all'annucio: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>:<\/p><p>{COMMENT}<\/p><p>Cordiali Saluti,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_user_validation",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "Bitte best\u00e4tigen Sie Ihren {WEB_TITLE} Account",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>bitte best\u00e4tigen Sie Ihre Registrierung mit Klick auf folgenden Link: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "Please validate your {WEB_TITLE} account",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>Please validate your registration by clicking on the following link: {VALIDATION_LINK}<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "Por favor, valide su {WEB_TITLE} cuenta",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Por favor, valide su registro haciendo clic en el siguiente enlace: {VALIDATION_LINK}<\/p><p>\u00a1Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "Merci de valider votre compte sur {WEB_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>Veuillez valider votre inscription en cliquant sur le lien suivant: {VALIDATION_LINK}<\/p><p>Merci!<\/p><p>Cordialement,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "Attiva la tua registrazione su {WEB_TITLE} ",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Attiva la tua registrazione cliccando sul seguente link: {VALIDATION_LINK}<\/p><p>Grazie!<\/p><p>Cordiali Saluti,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_user_registration",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Registrierung erfolgreich!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Registration successful!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Registro de \u00e9xito!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Inscription effectu\u00e9e avec succ\u00e8s!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Registrazione avvenuta con successo!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You've successfully registered for {WEB_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_send_friend",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "Schau, was ich auf {WEB_TITLE} entdeckt habe",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {FRIEND_NAME},<\/p><p>Ihr Freund {USER_NAME} m\u00f6chte Ihnen dieses Angebot empfehlen <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Nachricht:<\/p><p>{COMMENT}<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "Look at what I discovered on {WEB_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {FRIEND_NAME},<\/p><p>Your friend {USER_NAME} wants to share this listing with you <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Message:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "Mira lo que he descubierto en la {WEB_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {FRIEND_NAME},<\/p><p>Tu amigo{USER_NAME} quiere compartir esta lista con usted<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Mensaje:<\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "Regarde ce que j'ai trouv\u00e9 sur {WEB_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {FRIEND_NAME},<\/p><p>Votre ami {USER_NAME} souhaite partager cette annonce avec vous:<a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a><\/p><p>Message:<\/p><p>{COMMENT}<\/p><p>Cordialement,<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "Guarda che ho trovato su {WEB_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {FRIEND_NAME},<\/p><p>Un tuo amico {USER_NAME} vuole segnalarti un annucio che potrebbe interessarti <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Messaggio:<\/p><p>{COMMENT}<\/p><p>Cordiali Saluti,<\/p><p>{WEB_TITLE}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "alert_email_hourly",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Neue Angebote in the last hour",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>In der letzten Stunde wurden neue Angebote ver\u00f6ffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - New listings in the last hour",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last hour. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Nuevos anuncios in the last hour",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Nuevos anuncios han sido publicados en la \u00faltima hora. Echa un vistazo a ellos:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haga clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Nouvelle annonce in the last hour",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>De nouvelles annonces ont \u00e9t\u00e9 publi\u00e9es il y a moins d'une heure. Jetez y un coup d'oeil :<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pour vous d\u00e9sabonner de cette alerte, cliquez ici : {UNSUB_LINK}<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Nuovi annunci in the last hour",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Ecco gli annunci pubblicato nell'ultima ora. Dacci uno sguardo:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per cancellare il promemoria, clicca sul seguente link: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "alert_email_daily",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Neue Angebote in the last day",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>in den letzten 24 Stunden wurden neue Angebote ver\u00f6ffentlicht. Schauen Sie sich diese hier an:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - New listings in the last day",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last day. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Nuevos anuncios in the last day",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Nuevos anuncios han sido publicados en el \u00faltimo d\u00eda. Echa un vistazo a ellos:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haga clic en:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Nouvelle annonce in the last day",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>De nouvelles annonces ont \u00e9t\u00e9 publi\u00e9es il y a moins de 24h. Jetez y un oeil:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pour vous d\u00e9sabonner de cette alerte, cliquez ici: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Nuovi annunci in the last day",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Ecco gli annunci pubblicato nella giornata di ieri.Dacci uno sguardo:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per cancellare il promemoria, clicca sul seguente link: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "alert_email_weekly",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Neue Angebote in the last week",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>es wurden neue Angebote in der letzten Woche ver\u00f6ffentlicht. Hier k\u00f6nnen Sie sich diese anschauen:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - New listings in the last week",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>New listings have been published in the last week. Take a look at them:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Nuevos anuncios in the last week",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Nuevos anuncios han sido publicados en la \u00faltima semana. Echa un vistazo a ellos:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haga clic en: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Nouvelle annonce in the last week",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>De nouvelles annonces ont \u00e9t\u00e9 publi\u00e9es il y a moins de 7 jours. Jetez y un oeil:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Pour vous d\u00e9sabonner de cette alerte, cliquez ici: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Nuovi annunci in the last week",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Ecco gli annunci pubblicati nell'ultima settimana. Daccio uno sguardo:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per cancellare il promemoria, clicca sul seguente link: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "alert_email_instant",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Neue Angebote",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>Ein neues Angebot wurde ver\u00f6ffentlicht. Schau es Dir an!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Um diese Benachrichtigung abzubestellen, klicken Sie bitte hier: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - New listings",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>A new listing has been published, check it out!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>To unsubscribe from this alert, click on: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Nuevos anuncios",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Una nueva lista ha sido publicada, \u00e9chale un vistazo!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Para dejar de recibir esta alerta, haga clic en:{UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Nouvelle annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>Une nouvelle annonce vient d\u2019\u00eatre publi\u00e9e, jetez-y un oeil:<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Vous recevez cet email automatique car vous \u00eates abonn\u00e9 \u00e0 une alerte qui vous tient au courant des nouvelles annonces publi\u00e9es. Pour vous d\u00e9sabonner de cette alerte, cliquez ici: {UNSUB_LINK}<\/p><p>{WEB_TITLE}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Nuovi annunci",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>E' stato pubblicato un nuovo annuncio, dacci uno sguardo!<\/p><p>{ADS}<\/p><p>-------------<\/p><p>Per cancellare il promemoria, clicca sul seguente link: {UNSUB_LINK}<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_new_comment_admin",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Neuer Kommentar",
+                    "s_excerpt": "",
+                    "s_text": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - New comment",
+                    "s_excerpt": "",
+                    "s_text": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Nuevo comentario",
+                    "s_excerpt": "",
+                    "s_text": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Il y a un nouveau commentaire \u00e0 propos de votre annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Nuovo commento",
+                    "s_excerpt": "",
+                    "s_text": "<p>Someone commented on the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Commenter: {COMMENT_AUTHOR}<br \/>Commenter's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_new_item_non_register_user",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Optionen f\u00fcr das Angebot bearbeiten {ITEM_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Edit options for the listing {ITEM_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Opciones de edici\u00f3n para la lista {ITEM_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Gestion de votre annonce {ITEM_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Opzioni di modifica per l'annuncio {ITEM_TITLE}",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're not registered at {WEB_LINK}, but you can still edit or delete the listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> for a short period of time.<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>If you register as a user, you will have full access to editing options.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_item_validation",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Best\u00e4tigen Sie Ihre Anzeige",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Validate your listing",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Validar su anuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Validez votre annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Attiva il tuo annuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because a listing has been published at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this email.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_admin_new_item",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Eine neue Anzeige wurde ver\u00f6ffentlicht",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - A new listing has been published",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Una nueva lista ha sido publicada",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Votre alerte: une nouvelle annonce a \u00e9t\u00e9 publi\u00e9e",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Un nuovo annuncio \u00e8 stato pubblicato",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a listing has been published at {WEB_LINK}.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact email: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>You can edit this listing by clicking on the following link: {EDIT_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_user_forgot_password",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Passwortwiederherstellung",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Recover your password",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Recuperar su contrase\u00f1a",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - R\u00e9cup\u00e9ration de votre mot de passe",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Recupero password",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>We've sent you this e-mail because you've requested a password reminder. Follow this link to recover it: {PASSWORD_LINK}<\/p><p>The link will be deactivated in 24 hours.<\/p><p>If you didn't request a password reminder, please ignore this message. This request was made from IP {IP_ADDRESS} on {DATE_TIME}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_new_email",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Sie haben die \u00c4nderung Ihrer E-Mailadresse beantragt",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - You requested an email change",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Ha solicitado un cambio de correo electr\u00f3nico",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Vous avez demand\u00e9 un changement d'adresse e-mail",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Richiesta modifica indirizzo e-mail",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME}<\/p><p>You're receiving this e-mail because you requested an e-mail change. Please confirm this new e-mail address by clicking on the following validation link: {VALIDATION_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_alert_validation",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Bitte best\u00e4tigen Sie Ihr Abonnement zu einer Benachrichtigung",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>Bitte best\u00e4tigen Sie das Abonnement f\u00fcr Ihre Benachrichtigung indem Sie auf folgenden Link klicken: {VALIDATION_LINK}<\/p><p>Vielen Dank!<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Please validate your alert",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>Please validate your alert registration by clicking on the following link: {VALIDATION_LINK}<\/p><p>Thank you!<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} -Por favor confirmar su alerta",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Por favor, valide su registro de alerta, haga clic en el siguiente enlace: {VALIDATION_LINK}<\/p><p>\u00a1Gracias!<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p> "
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Merci de valider votre alerte",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>Veuillez svp confirmer votre inscription \u00e0 cette alerte en cliquant sur le lien suivant:{VALIDATION_LINK}<\/p><p>Merci<\/p><p>Cordialement,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Attiva il tuo avviso",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Se desideri attivare l'allarme clicca sul seguente link: {VALIDATION_LINK}<\/p><p>Grazie!<\/p><p>Cordiali Saluti,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_comment_validated",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Ihr Kommentar wurde freigegeben",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {COMMENT_AUTHOR},<\/p><p>Ihr Kommentar zu <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> wurde freigegeben.<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Your comment has been approved",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {COMMENT_AUTHOR},<\/p><p>Your comment on <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> has been approved.<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Tu comentario ha sido aceptado",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {COMMENT_AUTHOR},<\/p><p>Tu comentario en <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> ha sido aprobado. <\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Votre commentaire a \u00e9t\u00e9 accept\u00e9",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {COMMENT_AUTHOR},<\/p><p>Votre commentaire \u00e0 propos de <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> a \u00e9t\u00e9 approuv\u00e9.<\/p><p>Salutations,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Il tuo commento \u00e8 stato approvato",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {COMMENT_AUTHOR},<\/p><p>Il tuo commento <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>\u00e8 stato approvato.<\/p><p>Saluti,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_item_validation_non_register_user",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Best\u00e4tigen Sie Ihre Anzeige",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Validate your listing",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Validar su anuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Validez votre annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Attiva il tuo annuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>You're receiving this e-mail because you\u2019ve published a listing at {WEB_LINK}. Please validate this listing by clicking on the following link: {VALIDATION_LINK}. If you didn't publish this listing, please ignore this e-mail.<\/p><p>Listing details:<\/p><p>Contact name: {USER_NAME}<br \/>Contact e-mail: {USER_EMAIL}<\/p><p>{ITEM_DESCRIPTION}<\/p><p>Url: {ITEM_URL}<\/p><p>Even if you're not registered at {WEB_LINK}, you can still edit or delete your listing:<\/p><p>You can edit your listing by following this link: {EDIT_LINK}<\/p><p>You can delete your listing by following this link: {DELETE_LINK}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_admin_new_user",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Ein neuer Benutzer hat sich angemeldet",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - A new user has registered",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Un nuevo usuario se ha registrado",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Un nouvel utilisateur vient de s'inscrire",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Si \u00e8 registrato un nuovo utente",
+                    "s_excerpt": "",
+                    "s_text": "<p>Dear {WEB_TITLE} admin,<\/p><p>You're receiving this email because a new user has been created at {WEB_LINK}.<\/p><p>User details:<\/p><p>Name: {USER_NAME}<br \/>E-mail: {USER_EMAIL}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_contact_user",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Jemand hat eine Frage an Sie",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hat Ihnen eine Nachricht hinterlassen:<\/p><p>{COMMENT}<\/p><p>Beste Gr\u00fc\u00dfe,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Someone has a question for you",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) left you a message:<\/p><p>{COMMENT}<\/p><p>Regards,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Alguien tiene una pregunta para usted",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) le dej\u00f3 un mensaje:<\/p><p>{COMMENT}<\/p><p>Saludos,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Vous avez \u00e9t\u00e9 contact\u00e9. Une question vous attend.",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) vous a laiss\u00e9 un message:<\/p><p>{COMMENT}<\/p><p>Cordialement,<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Ti \u00e8 stata fatta una domanda",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {CONTACT_NAME}!<\/p><p>{USER_NAME} ({USER_EMAIL}, {USER_PHONE}) hai un messaggio:<\/p><p>{COMMENT}<\/p><p>Cordiali Saluti,<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_new_comment_user",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Jemand hat einen Kommentar zu Ihrem Angebot hinterlassen",
+                    "s_excerpt": "",
+                    "s_text": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Someone has commented on your listing",
+                    "s_excerpt": "",
+                    "s_text": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Alguien ha comentado sobre su anuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE} - Un nouveau commentaire vient d'\u00eatre fait au sujet de votre annonce",
+                    "s_excerpt": "",
+                    "s_text": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Qualcuno ha commentato un tuo annuncio",
+                    "s_excerpt": "",
+                    "s_text": "<p>There's a new comment on the listing: <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a>.<\/p><p>Author: {COMMENT_AUTHOR}<br \/>Author's email: {COMMENT_EMAIL}<br \/>Title: {COMMENT_TITLE}<br \/>Comment: {COMMENT_TEXT}<\/p><p>{WEB_LINK}<\/p>"
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_new_admin",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Admin-Konto erfolgreich erstellt!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Sehr geehrte\/r Herr\/Frau {ADMIN_NAME},<\/p><p>Der Administrator von {WEB_LINK} hat ein Benutzerkonto f\u00fcr Sie angelegt:<\/p><ul><li>Benutzername: {USERNAME}<\/li><li>Passwort: {PASSWORD}<\/li><\/ul><p>Sie k\u00f6nnen das Admin-Panel hier aufrufen: {WEB_ADMIN_LINK}.<\/p><p>Vielen Dank!!<\/p><p>Mit freundlichen Gr\u00fc\u00dfen,<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Success creating admin account!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {ADMIN_NAME},<\/p><p>The admin of {WEB_LINK} has created an account for you,<\/p><ul><li>Username: {USERNAME}<\/li><li>Password: {PASSWORD}<\/li><\/ul><p>You can access the admin panel here {WEB_ADMIN_LINK}.<\/p><p>Thank you!<\/p><p>Regards,<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Cuenta de administrador creada con \u00e9xito!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {ADMIN_NAME},<\/p><p>El administrador de {WEB_LINK} ha creado una cuenta para ti,<\/p><ul><li>El nombre de usuario: {USERNAME}<\/li><li>Contrase\u00f1a: {PASSWORD}<\/li><\/ul><p>Puedes acceder al panel de administraci\u00f3n aqu\u00ed {WEB_ADMIN_LINK}.<\/p><p>Gracias!<\/p><p>Saludos,<\/p>"
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE}  Cr\u00e9ation du compte Administrateur r\u00e9ussie",
+                    "s_excerpt": "",
+                    "s_text": "<p>Salut {ADMIN_NAME},<\/p><p>L'Administrateur de {WEB_LINK} vous a cr\u00e9\u00e9 votre compte<\/p><ul><li>Nom d'utilisateur: {USERNAME}<\/li><li>Mot de passe: {PASSWORD}<\/li><\/ul><p>Vous pouvez acc\u00e9der au tableau de bord ici: {WEB_ADMIN_LINK}.<\/p><p>Merci<\/p><p>Meilleures Salutations,<\/p> "
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Successo creazione di account admin!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {ADMIN_NAME},<\/p><p>L'amministratore di {WEB_LINK} ha creato un account per te,<\/p><ul><li>Utente: {USERNAME}<\/li><li>Password: {PASSWORD}<\/li><\/ul><p>Puoi accedere al pannello di amministrazione da qui: {WEB_ADMIN_LINK}.<\/p><p>Grazie!<\/p><p>Cordiali Saluti,<\/p> "
+                }
+            ]
+        },
+        {
+            "s_internal_name": "email_warn_expiration",
+            "locales": [
+                {
+                    "fk_c_locale_code": "de_DE",
+                    "s_title": "{WEB_TITLE} - Ihre Anzeige l\u00e4uft demn\u00e4chst ab",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hallo {USER_NAME},<\/p><p>Ihre Anzeige <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is dabei bald abzulaufen: {WEB_LINK}."
+                },
+                {
+                    "fk_c_locale_code": "en_US",
+                    "s_title": "{WEB_TITLE} - Your ad is about to expire",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hi {USER_NAME},<\/p><p>Your listing <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> is about to expire at {WEB_LINK}."
+                },
+                {
+                    "fk_c_locale_code": "es_ES",
+                    "s_title": "{WEB_TITLE} - Tu anuncio est\u00e1 a punto de caducar",
+                    "s_excerpt": "",
+                    "s_text": "<p>Hola {USER_NAME},<\/p><p>Tu anuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> est\u00e1 a punto de caducar en {WEB_LINK}."
+                },
+                {
+                    "fk_c_locale_code": "fr_FR",
+                    "s_title": "{WEB_TITLE}  Votre annonce est sur le point d'expirer!",
+                    "s_excerpt": "",
+                    "s_text": "<p>Bonjour {USER_NAME},<\/p><p>Votre annonce <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> sur {WEB_LINK} va bient\u00f4t expirer. "
+                },
+                {
+                    "fk_c_locale_code": "it_IT",
+                    "s_title": "{WEB_TITLE} - Il tuo annuncio sta per scadere",
+                    "s_excerpt": "",
+                    "s_text": "<p>Ciao {USER_NAME},<\/p><p>Il tuo annuncio <a href=\"{ITEM_URL}\">{ITEM_TITLE}<\/a> sta per scaded: {WEB_LINK}."
+                }
+            ]
+        }
+    ],
+    "footer": {
+        "locales": [
+            {
+                "fk_c_locale_code": "de_DE",
+                "s_text": "&copy; 2014 copyright - {WEB_TITLE}. Alle Rechte vorbehalten."
+            },
+            {
+                "fk_c_locale_code": "en_US",
+                "s_text": "&copy; 2014 copyright - {WEB_TITLE}. All rights reserved."
+            },
+            {
+                "fk_c_locale_code": "es_ES",
+                "s_text": "&copy; 2014 copyright - {WEB_TITLE}. Todos los derechos reservados."
+            },
+            {
+                "fk_c_locale_code": "fr_FR",
+                "s_text": "&copy; 2014 copyright - {WEB_TITLE}. Tous droits réservés."
+            },
+            {
+                "fk_c_locale_code": "it_IT",
+                "s_text": "&copy; 2014 copyright - {WEB_TITLE}. Tutti i diritti riservati."
+            }
+        ]
+    }
+}

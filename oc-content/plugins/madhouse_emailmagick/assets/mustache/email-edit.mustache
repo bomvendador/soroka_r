@@ -1,0 +1,74 @@
+{{#datas}}
+	<div class="panel panel-default email-wrapper">
+		<div class="panel-heading space-in">
+			<a class="panel-title l-h-input" data-toggle="collapse" href="#{{s_internal_name}}">
+				<span class="email-name">{{s_internal_name}}</span>
+				<span class="{{s_label_filled}} space-out-l-xs">
+					{{i_filled}}% {{texts.done}}
+				</span>
+			</a>
+			{{#b_deleted}}
+				<a class="pull-right btn btn-danger" type="button" data-toggle="modal" data-target="#modal-{{s_internal_name}}">
+					{{texts.delete}}
+				</a>
+			{{/b_deleted}}
+			{{^b_deleted}}
+				<a class="btn btn-default pull-right" href="{{edit_url}}{{pk_i_id}}" target="_blank">{{texts.email_link}}</a>
+			{{/b_deleted}}
+		</div>
+		<div id="{{s_internal_name}}" class="panel-collapse collapse">
+			<div class="tab-container space-in">
+				<ul class="nav nav-tabs">
+					{{#active_locales}}
+						<li>
+							<a data-toggle="tab" href="#{{s_internal_name}}-{{pk_c_code}}">{{s_name}}</a>
+						</li>
+					{{/active_locales}}
+				</ul>
+				<div class="tab-content">
+					{{#locales}}
+						<div id="{{s_internal_name}}-{{fk_c_locale_code}}"
+							 class="tab-pane email-description codemirror-email"
+							 data-locale="{{fk_c_locale_code}}"
+						>
+							<div class="form-group">
+					        	<label class="control-label">
+					        		<strong>{{texts.title}}</strong>
+					        	</label>
+					            <input class="form-control email-title" type="text" value="{{s_title}}" />
+					        </div>
+					        <div class="form-group">
+					        	<label class="control-label">
+					        		<strong>{{texts.excerpt}}</strong>
+					        	</label>
+				            	<input class="form-control email-excerpt" type="text" value="{{s_excerpt}}" />
+				            	<span class="help-block">
+				            		{{texts.excerpt_help}}
+				            	</span>
+					        </div>
+							<div class="form-group">
+					        	<label class="control-label">
+					        		<strong>{{texts.content}}</strong>
+					        	</label>
+					            <textarea class="form-control email-text codemirror-textarea">{{s_text}}</textarea>
+					        </div>
+					    </div>
+		        	{{/locales}}
+		        </div>
+	       	</div>
+		</div>
+		<div id="modal-{{s_internal_name}}" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<p>{{texts.confirm_delete}}</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">{{texts.no}}</button>
+						<button type="button" class="btn btn-primary action-delete" data-dismiss="modal">{{texts.yes}}</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div>
+{{/datas}}

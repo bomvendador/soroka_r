@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,400);
+/*
+* Copyright 2015, http://www.osclasswizards.com/
+* Based on bootstrap framework by http://getbootstrap.com/
+*/
+
+/*reset file*/
+
+body {font: 400 12px/25px 'Open Sans', sans-serif;color: #777;
+}
+.gm-style, .listing-attr .currency-value {font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .listings h2 a {color: #4f4f4f;font-family: 'Open Sans', sans-serif;font-weight: 700;
+}
+a, .listings ul li.last a:hover, .language span:hover {color: #a09f9f;
+}
+/*input fields*/
+
+input[type=text], input[type=password], textarea, select, .select-box {font: 400 12px/35px 'Open Sans', sans-serif;border: solid 1px #eaeaea;background-color: #fff;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus {background-color: #f5f5f5;
+}
+optgroup:before {content: attr(label);display: block;padding: 10px;font-weight: 700;
+}
+.select-box {display: inline-block;line-height: 33px;overflow: hidden;padding: 0;position: relative;vertical-align: middle;width: 100%;z-index: 0; 
+}
+.select-box option {background: #fff;padding: 5px 10px;font-size: 12px;line-height: 25px;
+}
+select {-webkit-appearance: none;appearance: none;
+}
+.select-box select {height: 33px;left: 0;padding-right: 20px;position: relative;top: 0;width: 100%;z-index: 1003;cursor:pointer;
+}
+.select-box-icon {display: block;height: 100%;position: absolute;right: 10px;top: 0;z-index: 0;color: #fff;
+}
+.select-box-icon:after {color: #404040;font-family: 'FontAwesome';font-size: 12px;content: "\f0d7";
+}
+.main-search .select-box .select-box-label {line-height: 33px;
+}
+.select-box .select-box-label {display: block;float: left;height: 100%;line-height: 33px;overflow: hidden;padding: 0 10px;position: absolute;top: 0;
+}
+#footer a {color: #ababab;
+}
+.btn-success:hover, .btn-focus, .contact_button a:hover, .thumbs a:hover, .forgot .form-container-box .resp-wrapper .ui-button:hover {opacity: 0.7;-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+}
+/*fash messages*/
+.flashmessage-error, #error_list label, #comment_error_list label, .flashmessage-warning {background: #fed2d3;border: solid 1px #d8929c;color: #6a000c;display: block!important;
+}
+.flashmessage-info, .flashmessage-ok {text-align: left;border: 1px solid #c9e8a9;background-color: #eff8e6;color: #427e38;
+}
+.main_header, #footer, .language ul {background-color: #21292d;
+}
+#content {background-color: #fff;
+}
+.title, .block h2, .forgot .form-container-box .header {border-bottom: 2px solid #4f4f4f;
+}
+.control-label sup {color: #F00;
+}
+.user_menu li a, .language ul li a:hover, .language ul li a.active {background-color: #f8fbfc;
+}
+#itemMap {border: solid 5px #f5f5f5;
+}
+.search_filter li li a:hover, #related-searches li a:hover, #tab_filter ul li a:hover {background-color: #21292d;
+}
+.comment h4:before {color: #e0e0e0;
+}
+#form_vh_map {background-color: #000;
+}
+.form-filters {background-color: rgba(00, 00, 00, 0.4);
+}
+.toolbar {background-color: #fafafa;
+}
+.listings h2 {background-color: #fff;
+}
+#contact .user-card figure {background-color: #f1f1f1;
+}
+#footer li:after, #footer li strong:after {background-color: rgba(255, 255, 255, 0.3);
+}
+#footer li.publish:after {background-color: rgba(255, 255, 255, 0);
+}
+.subscription {background-color: #2f3339;
+}
+a:hover, a:active, a:focus, .listings ul li.last a, .listings h2 a:hover, .sorting a.active, .sort a.current, .language span, ul.tabs li .fa, .breadcrumb li.last-child span, .attribute_list span.currency-value, .owl-prev, .owl-next, #tab_filter ul li a {-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;
+}
+.square, .circle {background-color: #fff;border: 1px solid #eaeaea;
+}
+.page-not-found, #comment_form, .comments_list, #contact, #mask_as_form, .dashboard_form form, .block section, .dashboard_watchlist, .user-card figure, .ads_home, .ads_header, .ads_search_top, .ads_search_bottom, .ads_300, .list_space, .wraps form, .listings ul, .block_list, #item-content, .user_detail_info, #user_data, .forgot .form-container-box .resp-wrapper {box-shadow: none;
+}
+.votes_results .fa-star-o, .toggle {color: #ababab;
+}
+#wrapper_voting_plugin {margin: 15px 0;padding: 0;
+}
+.realestate-details h3, .realestate-details h4 {margin: 20px 0;
+}
+.realestate-details .table-attributes {margin: 0;
+}
+.table-attributes tr, #description table tr {background: #f5f5f5;padding: 10px;font-weight: 700;display: block;border-bottom: solid 1px #fff;
+}
+.realestate-details .list-other-attributes li {width: 100px;
+}
+.realestate-details .list-other-attributes img {margin: 0 5px 0 0;
+}
+.plugin-hooks table input {margin: 5px;
+}
+#description table {margin: 0!important;
+}
+#description table label {margin: 0;
+}
+.addthis-smartlayers {display: none!important;
+}
+.stButton .stButton_gradient, .stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {height: auto!important;
+}
+ @media only screen and (max-width:1050px) {
+.listing-attr {padding: 1em;
+}
+.info_top {left: 1em;right: 1em;bottom: 1em;
+}
+}
+@media only screen and (max-width:900px) {
+.top_links {text-align: center;
+}
+.welcome-message, .top_links ul, .language {float: none;
+}
+.top_links li {margin: 0 5px;
+}
+.toggle {display: block;
+}
+.main_header .container {position: relative;
+}
+.links {display: none;float: none!important;position: absolute;left: 0;top: 98px;background-color: #21292d;width: 100%;padding: 10px 0;margin: 0;z-index: 99;
+}
+.links li {display: block;line-height: 25px;margin: 0 20px;
+}
+.publish {clear: left;float: none;padding: 15px 0 0;
+}
+.publish .btn {display: block;
+}
+.main-search .selector {margin: 10px 0;
+}
+#listing-card-list li.premium h4 a {display: block;
+}
+#listing-card-list li.premium h4 span {float: left;clear: left;display: inline-block;margin: 10px 0;
+}
+.listing-attributes {clear: left;
+}
+}
+ @media only screen and (max-width:767px) {
+.mobile_list {display: block;
+}
+.block_listed {display: none;
+}
+.listings_list figure {margin-bottom: 20px;
+}
+.thumbs {margin-top: 20px;
+}
+.thumbs a {display: block;float: left;margin: 0 10px 0 0;
+}
+.language ul {right: 0;margin: 0 auto;
+}
+.listing-attr {padding: 2em;
+}
+}
+ @media only screen and (max-width:600px) {
+.contact_button li {display: block;padding: 0;text-align: center;margin: 0 0 5px;
+}
+#show_filters {display: block;
+}
+#filters_shown, .mobile_hide, #filters_shown h2 {display: none;
+}
+.counter-search {float: right;
+}
+.sort {clear: left;float: none;
+}
+.sort li {margin: 5px 5px 0 0;
+}
+}

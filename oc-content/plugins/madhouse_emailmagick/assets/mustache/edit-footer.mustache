@@ -1,0 +1,30 @@
+<div class="hpadder-md">
+    <h2 class="h3 row-space-2 text-info">
+        {{texts.footer}}
+    </h2>
+    <div class="form-group space-out-b-o">
+        <div class="form-controls">
+            <div id="footer-tabs" class="tab-container">
+                <ul class="nav nav-tabs">
+                    {{#active_locales}}
+                        <li>
+                            <a data-toggle="tab" href="#footer-{{pk_c_code}}">{{s_name}}</a>
+                        </li>
+                    {{/active_locales}}
+                </ul>
+                <div class="tab-content">
+                    {{#datas.footer.locales}}
+                        <div id="footer-{{fk_c_locale_code}}"
+                             data-locale="{{fk_c_locale_code}}"
+                             class="tab-pane footer-description codemirror-email">
+                            <textarea class="footer-text codemirror-textarea">{{s_text}}</textarea>
+                        </div>
+                    {{/datas.footer.locales}}
+                </div>
+            </div>
+            <p class="space-out-t">
+                {{texts.footer_help}}
+            </p>
+        </div>
+    </div>
+</div>

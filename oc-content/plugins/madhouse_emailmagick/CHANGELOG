@@ -1,0 +1,13 @@
+1.01	/ Feb. 2015
+		Minor, bug fixes. Making it work better with other plugins by Madhouse.
+
+		[+] Link to Madhouse profile on the market added in nav.
+		[+] 'Bump me' patch added.
+			This patch ensures that the higher madhouse/utils is loaded to make
+			it work with other plugins by Madhouse.
+		[*] Composer updated for using:
+			- madhouse/utils-1.20
+			- madhouse/autoloader-1.00
+		[!] Support for Windows paths.
+
+1.00	/ Jan. 2015

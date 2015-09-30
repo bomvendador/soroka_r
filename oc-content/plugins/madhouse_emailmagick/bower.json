@@ -1,0 +1,29 @@
+{
+  "name": "madhouse/emailmagick",
+  "version": "1.01",
+  "authors": [
+    "MADHOUSE <contact.wearemadhouse@gmail.com>"
+  ],
+  "description": "Design and translate Osclass emails with style and without the hassle, designed by Madhouse.",
+  "main": "index.php",
+  "keywords": [
+    "osclass",
+    "plugins",
+    "emails"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "http://wearemadhouse.wordpress.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "4.6",
+    "cssr": "git@bitbucket.org:muchmuch/cssr.git#1.01"
+  }
+}

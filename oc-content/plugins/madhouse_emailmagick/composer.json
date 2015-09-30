@@ -1,0 +1,44 @@
+{
+    "name": "madhouse/emailmagick",
+    "description": "Design & manage emails for Osclass, powered by Madhouse.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "MADHOUSE",
+            "email": "contact.wearemadhouse@gmail.com"
+        }
+    ],
+    "config": {
+	   "vendor-dir": "vendor/composer_components"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/muchmuch/madhouse_autoloader.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/muchmuch/madhouse_utils.git"
+        }
+    ],
+    "require": {
+	   "madhouse/utils": "1.20",
+       "madhouse/autoloader": "1.00"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "bower install"
+        ],
+        "post-update-cmd": [
+            "bower install"
+        ]
+    },
+    "autoload": {
+    	"psr-0": {
+    	    "Madhouse_EmailMagick_": "classes/"
+    	},
+    	"files": [
+	       "helpers/hUrl.php"
+        ]
+    }
+}
